@@ -11,3 +11,5 @@ $ pip install PyPDF2
 In main.py code, replace 'file1.pdf', 'file2.pdf', etc. with the paths to the PDF files you want to merge. The resulting merged PDF will be saved as 'merged.pdf'.
 
 PyPDF2 library has some limitations, such as not being able to handle certain advanced PDF features. If you encounter any issues with complex PDFs, you might need to explore other libraries like pdfrw or PyMuPDF.
+
+
