@@ -1,7 +1,8 @@
 from pytube import YouTube
-video_url = 'https://www.youtube.com/watch?v=BaFdKJxWspk'
+video_url = 'link'
 yt = YouTube(video_url)
-video_stream = yt.streams.filter(res='480p', progressive=True).first()
-download_path = 'F:\Projects\Youtube_Downloader'
+desired_resolution = '480p'
+video_stream = yt.streams.filter(res=desired_resolution, progressive=True).first()
+download_path = '/path/to/download/directory'
 video_stream.download(output_path=download_path)
 print('Download complete!')
