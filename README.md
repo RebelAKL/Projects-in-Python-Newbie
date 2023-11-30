@@ -1,2 +1,2 @@
-# Projects-in-Python-for-Beginners
+# Projects-in-Python-Newbie
 
